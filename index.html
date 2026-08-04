@@ -62,6 +62,33 @@ line-height:1.8;
     <ul>
         <li><a href="index.html">Home خانه</a></li>
         <li><a href="about.html">About Usدرباره ما</a></li>
+      <!-- دکمه درباره ما -->
+<button id="about-btn" style="padding: 12px 25px; font-size: 16px; cursor: pointer;">
+    درباره ما
+</button>
+
+<!-- بخش متن درباره ما (اول مخفی است) -->
+<div id="about-section" style="display: none; margin-top: 25px; line-height: 1.9; font-size: 17px; direction: rtl;">
+
+    <h2>درباره ما</h2>
+    <p>
+        در دنیای امروز، گرفتن اقامت از طریق گلدن ویزا و تمکن مالی در یونان، یک فرصت بی‌نظیر برای سرمایه‌گذاری، زندگی و شروع تازه است—و ما اینجا هستیم تا این مسیر را برای شما هموار کنیم.
+
+        ما با تجربه‌ی گسترده در زمینه‌ی مشاوره‌ی اقامتی، اخذ گلدن ویزا و ارائه‌ی راهکارهای تمکن مالی، همراه شما هستیم تا به سادگی و اطمینان کامل، در آتن اقامت داشته باشید.
+
+        از سوی دیگر، ما تخصص ویژه‌ای در بازسازی و به‌سازی املاک در آتن داریم. از تبدیل فضاهای قدیمی به خانه‌های مدرن گرفته تا ارتقای کیفیت و ارزش ملک، ما با تیمی حرفه‌ای و با تجربه کار می‌کنیم تا بهترین نتیجه را برای شما رقم بزنیم.
+
+        انتخاب ما یعنی انتخاب اعتماد، دقت و آینده‌ای روشن در قلب آتن.
+    </p>
+
+</div>
+
+<!-- اسکریپت نمایش متن -->
+<script>
+    document.getElementById("about-btn").addEventListener("click", function() {
+        document.getElementById("about-section").style.display = "block";
+    });
+</script>
         <li><a href="services.html">Services خدمات</a></li>
         <li><a href="blog.html">Blogبلاگ</a></li>
         <li><a href="contact.html">Contact Us تماس با ما</a></li>
