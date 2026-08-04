@@ -26,7 +26,13 @@ line-height:1.8;
   }
   </style>
 </head>
-
+<script>
+  document.getElementById('yourElementId').addEventListener('click', function() {
+    // اینجا المان‌های موردنظرت رو از حالت پنهان خارج می‌کنی
+    document.getElementById('contact-link').style.display = 'block';
+    // به همین ترتیب برای بقیه لینک‌ها هم
+  });
+</script>
 <body>
   
 <nav></nav>
