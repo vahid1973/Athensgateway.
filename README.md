@@ -1,2 +1,2 @@
 # Athensgateway
-Renovation , golden visa and Fip services in Athens Greece.
+ Golden Visa , Fip services and Renovation in Athens Greece.
